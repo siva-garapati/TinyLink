@@ -100,7 +100,7 @@ export default function LinksTable({
                                         <Link href={`/code/${link.code}`} className="hover:text-accent transition-colors">
                                             {link.code}
                                         </Link>
-                                        <CopyButton text={`${process.env.NEXT_PUBLIC_BASE_URL}/${link.code}`} />
+                                        <CopyButton text={`${process.env.NEXT_PUBLIC_APP_URL}/${link.code}`} />
                                     </div>
                                 </td>
 
