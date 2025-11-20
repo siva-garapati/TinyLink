@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import Dashboard from "@/components/dashboard/DashBoard";
 import prisma from "@/lib/prisma";
 
