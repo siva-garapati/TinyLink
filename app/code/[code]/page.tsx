@@ -47,7 +47,7 @@ export default async function StatsPage({
                                     <code className="text-lg font-mono font-semibold">
                                         tinylink.app/{link.code}
                                     </code>
-                                    <CopyButton text={`tinylink.app/${link.code}`} />
+                                    <CopyButton text={`${process.env.NEXT_PUBLIC_APP_URL}/${link.code}`} />
                                 </div>
                             </div>
 
